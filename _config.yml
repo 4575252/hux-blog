@@ -1,19 +1,19 @@
 # Site settings
-title: Hux Blog
+title: Linke's Blog
 header-img: img/home-bg.jpg
-email: huxpro@gmail.com
-description: "一生想做浪漫极客。@Hux黄玄的博客主页、个人网站, 知乎@黄玄／阿里@鬼栈／Front-End／UX Unicorn／Web &amp; Mobile Lover／Motion Design "
+email: 4575252@gmail.com
+description: "多开心一点。"
 baseurl: ""
-url: "http://huxpro.github.io"
+url: "http://4575252.github.io"
 
 
 # SNS settings
 RSS: false
-weibo_username:     huxpro
-zhihu_username:     huxpro
-github_username:    huxpro
-#twitter_username:  huxpro
-facebook_username:  huxpro
+weibo_username:     4575252
+zhihu_username:     4575252
+github_username:    4575252
+#twitter_username:  4575252
+facebook_username:  4575252
 
 
 # Build settings
@@ -53,14 +53,15 @@ sidebar-avatar: /img/avatar-hux.jpg     # use absolute URL.
 
 # Friends
 friends: [
-    {
-        title: "天镶的博客",
-        href: "http://lingyu.wang/"
-    },{
-        title: "Luke的自留地",
-        href: "http://hmqk1995.github.io"
-    },{
-        title: "SmdCn's Blog",
-        href: "http://blog.smdcn.net"
-    }
+
+    # {
+    #     title: "天镶的博客",
+    #     href: "http://lingyu.wang/"
+    # },{
+    #     title: "Luke的自留地",
+    #     href: "http://hmqk1995.github.io"
+    # },{
+    #     title: "SmdCn's Blog",
+    #     href: "http://blog.smdcn.net"
+    # }
 ]

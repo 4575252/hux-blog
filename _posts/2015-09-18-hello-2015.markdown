@@ -1,0 +1,80 @@
+---
+layout:     post
+title:      "Hello 2015"
+subtitle:   " \"Hello World, Hello Blog\""
+date:       2015-09-18 12:25:00
+author:     "Linke"
+header-img: "img/post-bg-2015.jpg"
+tags:
+    - 生活
+---
+
+> **“Yeah It's on. ”**
+
+
+Linke 的 Blog 就这么DUANG开了, 总算有个地方可以好好写点东西了。
+
+[跳过废话，直接看技术实现 ](#build) 
+
+
+
+作为一个 ITer，早就有写 Blog 的想法了，其实老早也注册了几个, 不过总有这个那个问题, 就不吐槽国内的环境和无良的站点。**但是既然作为一个 ITer，而且还算个程序员……** 大部分 Blog 服务都太丑，还容易被砍掉……结果就一直连个写 Blog 的地儿都没有。
+
+2015年也是脑洞大开的一年, 结合[费曼快速学习技巧](http://www.zhihu.com/question/20576786), 想想还是写点东西总结总结, 毕竟笔记本里都是些乱七八糟的, 算是给自己开个专栏。
+
+转眼进入 2015 ，觉得还是有很多话想要说，很多经历和感悟可以写，也想丰富下自己的个站（之前的[个人网站](http://huangxuan.me/portfolio)是作品集形式的，现在集成进来了。），**想来想去还是弄个 Blog 最适合……**罢罢罢，花一天搞一个吧！  
+
+本站前端模板直接拷贝了[Hux Blog](http://huangxuan.me/portfolio) 和原作者[Clean Blog](http://ironsummitmedia.github.io/startbootstrap-clean-blog-jekyll/),并直接复用了 [duoshuo 评论系统](http://lzhblog.duoshuo.com/admin/),懒到极致了, O(∩_∩)O~
+
+
+
+<p id = "build"></p>
+---
+那么接下来就说说 Building Blog 的技术细节。
+
+环境:
+
+* MBP OSX 10.9
+* Homebrew
+* Node.js
+* jekyll
+	* [clean blog template](https://github.com/Huxpro/huxpro.github.io)
+	* [zhihu](http://www.zhihu.com/question/20223939)
+* [Mou](http://25.io) 
+
+正好之前就有关注过 [GitHub Pages](https://pages.github.com/) + [Jekyll](http://jekyllrb.com/) 快速建 Blog 的技术方案，觉得非常适合(其实在尝试台湾同胞 hexo 碰到了不少坑,又没妥善处理办法,看 github 官网挺推崇 jekyll, 并且鼓励在 pages 上推广 blog, 视乎比代码更欢迎~)。
+
+优点非常明显：
+
+* 利用 GitHub Pages 的域名和免费无限空间，不用自己折腾主机
+	* 如果需要自定义域名，也只需要简单改改 DNS 加个 CNAME 就好了 
+* 非常熟悉的 Git Flow ，**Git Commit 即 Blog Post**
+	* 前端最爱啊，自从换 Mac 后，Terminal(Z-Shell) + Git 玩起来太爽了
+* **Markdown** 写作环境
+	* 这就是 Jekyll 的魔法了，习惯了 Markdown 排版后也是离不开
+* Jekyll 的自定制还是相当容易的，基本就是个模版引擎
+
+
+之前觉得最大的缺点就是怕被墙，其实也是优点。
+
+---
+
+配置的过程中的大小坑
+
+* git 环境, mac 居然都自带了, 想来估计是 xcode 大集成的需要吧
+* jekyll 安装,因版本迭代较快,国内文章基本都太老旧,[参考](http://internet-inspired.com/wrote/install-jekyll-in-osx-mavericks/)
+* rubygem 的源居然被墙了……后来[手动修改镜像源](https://github.com/juthilo/run-jekyll-on-windows/issues/34)才成功
+
+---
+参考资料
+jekyllcn 文档[http://jekyllcn.com](http://jekyllcn.com)
+markdown 语法(...)
+模板特别说明(...)
+### *"Goodbye passed"*  
+
+
+
+
+ 
+
+
