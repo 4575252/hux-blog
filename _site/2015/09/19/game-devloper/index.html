@@ -9,9 +9,9 @@
     <meta name="description" content="多开心一点。">
     <link rel="shortcut icon" href="img/favicon.ico">
 
-    <title>LDAP 与 Relation DB 的区别和用法 - Linke's Blog</title>
+    <title>游戏开发计划 - Linke's Blog</title>
 
-    <link rel="canonical" href="http://4575252.github.io/2015/09/18/ldap-rdb/">
+    <link rel="canonical" href="http://4575252.github.io/2015/09/19/game-devloper/">
 
     <!-- Bootstrap Core CSS -->
     <link rel="stylesheet" href="/css/bootstrap.min.css">
@@ -104,12 +104,12 @@
 
     <!-- Image to hack wechat -->
 <!-- <img src="/img/icon_wechat.png" width="0" height="0"> -->
-<!-- <img src="/img/post-bg-rwd.jpg" width="0" height="0"> -->
+<!-- <img src="/img/in-post/post-20150918-game-devloper.jpg" width="0" height="0"> -->
 
 <!-- Post Header -->
 <style type="text/css">
     header.intro-header{
-        background-image: url('/img/post-bg-rwd.jpg')
+        background-image: url('/img/in-post/post-20150918-game-devloper.jpg')
     }
 </style>
 <header class="intro-header" >
@@ -119,17 +119,21 @@
                 <div class="post-heading">
                     <div class="tags">
                         
-                        <a class="tag" href="/tags/#LDAP" title="LDAP">LDAP</a>
+                        <a class="tag" href="/tags/#游戏开发" title="游戏开发">游戏开发</a>
                         
-                        <a class="tag" href="/tags/#DataBase" title="DataBase">DataBase</a>
+                        <a class="tag" href="/tags/#Java" title="Java">Java</a>
+                        
+                        <a class="tag" href="/tags/#JavaFX" title="JavaFX">JavaFX</a>
+                        
+                        <a class="tag" href="/tags/#进行中" title="进行中">进行中</a>
                         
                     </div>
-                    <h1>LDAP 与 Relation DB 的区别和用法</h1>
+                    <h1>游戏开发计划</h1>
                     
                     
                     <h2 class="subheading"></h2>
                     
-                    <span class="meta">Posted by Linke on September 18, 2015</span>
+                    <span class="meta">Posted by Linke on September 19, 2015</span>
                 </div>
             </div>
         </div>
@@ -143,49 +147,43 @@
             <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1 post-container">
 
 				<blockquote>
-  <p>我能告诉你折腾一天 blog 主要是因为这篇文章的发布么~</p>
+  <p>打算通过游戏开发的方式把 Awt/Swing 捡回来,满足多年的心愿</p>
 </blockquote>
 
-<p>前几日检索红肠啃僵尸的 blog, 留意了一下 cas sso 的构建,对于 openladp 是早有耳闻,也应用实施过 AD 与 WAS 的集成,并自行开发了一套简易 sso 的 api, 应用了&gt;=5套的子系统，不过对于什么时候用 ldap 或 db 一直不甚了解，早上醒来冥思苦想google了半天，略有感觉因此成文。<br />
-<img src="/img/in-post/post-20150918-ldapvsrdb.png" alt="img" /></p>
+<p>闲来无事挺爱玩朋友公司的两款游戏永恒星球和兔子等着瞧,不过这两款游戏设计节奏有点快,也就是太难,爽的时间太多,需要伟哥(DIY)!</p>
 
-<h3 id="ldap-">关于 ldap 的优缺点</h3>
-<p>优点</p>
+<p>算法、图形 api 要好好研究下，难度有点大，蛮有挑战的</p>
 
-<ul>
-  <li>数量大、读取快速（特殊的树形/文档树结构）</li>
-  <li>多年推广并广泛支持的国际流行标准，方便快速的与电子设备、软件系统集成</li>
-  <li>单点登录方面应用广发，对于多系统单用户的场景特别适用</li>
-</ul>
+<p>还在纠结用 swing 还是最近 javaFX 来实现,要不挑战 FX?</p>
 
-<p>缺点</p>
+<h3 id="section">俄罗斯方块</h3>
+<p><img src="/img/in-post/post-20150918-game-devloper1.jpg" alt="img" /></p>
 
 <ul>
-  <li>不支持事务机制，写入、更新缓慢</li>
-  <li>权限模型较弱，单一层级、横向扩展空间有限，复杂权限设计还要结合关系型数据库</li>
-  <li>搭建复杂、集成易出错、文档少</li>
+  <li>图案旋转</li>
+  <li>随机算法</li>
+  <li>消除/变换动画</li>
+  <li>得分,排行榜</li>
 </ul>
 
-<h3 id="ldap--1">LDAP 存在的意义</h3>
+<h3 id="section-1">连连看</h3>
+<p><img src="/img/in-post/post-20150918-game-devloper2.jpg" alt="img" /><br />
+* 划线/寻路算法</p>
+
+<h3 id="section-2">永恒星球(类似五子棋,更复杂好玩)</h3>
+<p><img src="/img/in-post/post-20150918-game-devloper3.jpg" alt="img" /><br />
+<img src="http://a5.mzstatic.com/us/r30/Purple7/v4/94/78/53/94785301-203b-dc14-956b-d0076c096ae4/screen568x568.jpeg" alt="img" /><br />
+<img src="http://a3.mzstatic.com/us/r30/Purple1/v4/20/c9/ed/20c9eda0-8224-7644-b67d-a1f36dc75861/screen568x568.jpeg" alt="img" /></p>
 
 <ul>
-  <li>外语系电子设备如打印机/网络设备等,做认证默认都自带 ldap 接口,如有该服务可快速使用.</li>
-  <li>普通企业快速发展逐步积累了不少中小系统,回过头来发现每个用户都有好多账号口令,急需一个统一认证服务, LDAP 就应运而建了.</li>
-  <li>域服务的推广积累,大公司在实施 ITEL 都会考虑这块,第一时间就是搭建 AD 服务,然后足部横向推广</li>
+  <li>寻路算法</li>
+  <li>四则运算</li>
 </ul>
-
-<h3 id="section">其他</h3>
-
-<p>LDAP 与 RDB 并不冲突, 很多时候需要通力合作.</p>
-
-<p>相对于 RDB,LDAP 在国内/短期项目应用并不多,但规模上去了还是会应用</p>
-
-<p>网上关于 LDAP 和 RDB 的争议还是不少, LDAP 虽然有点迟暮,但还是有不少份额,至少在某些场景还是很不错的解决方案.</p>
 
 <hr />
 <p>参考资料<br />
-为什么<a href="https://www.centos.org/docs/5/html/5.2/Deployment_Guide/s1-ldap-adv.html">使用 LDAP</a><br />
-<a href="http://blog.csdn.net/lifetragedy/article/details/43817903">单点登录之CAS SSO从入门到精通（第一天）</a></p>
+<a href="https://itunes.apple.com/cn/app/yong-heng-xing-qiu/id1018113187?mt=8&amp;ign-mpt=uo%3D4">永恒星球</a><br />
+<a href="https://itunes.apple.com/cn/app/tu-zi-deng-zhe-qiao/id1016375065?mt=8">兔子等着瞧</a></p>
 
 
 
@@ -196,14 +194,14 @@
                 </style>
                 <div class="ds-share"
                     style="text-align: right"
-                    data-thread-key="/2015/09/18/ldap-rdb" data-title="LDAP 与 Relation DB 的区别和用法"
-                    data-images="http://4575252.github.io/img/post-bg-rwd.jpg"
+                    data-thread-key="/2015/09/19/game-devloper" data-title="游戏开发计划"
+                    data-images="http://4575252.github.io/img/in-post/post-20150918-game-devloper.jpg"
                     data-content="
-  我能告诉你折腾一天 blog 主要是因为这篇文章的发布么~
+  打算通过游戏开发的方式把 Awt/Swing 捡回来,满足多年的心愿
 
 
-前几日检索红肠啃僵尸的 blog, 留意了一下 cas sso 的构建,对于 ope... | Linke Blog，@Linke 的个人博客"
-                    data-url="http://4575252.github.io/2015/09/18/ldap-rdb/">
+闲来无事挺爱玩朋友公司的两款游戏永恒星球和兔子等着瞧,不过这两款游戏设计节... | Linke Blog，@Linke 的个人博客"
+                    data-url="http://4575252.github.io/2015/09/19/game-devloper/">
                     <div class="ds-share-inline">
                       <ul  class="ds-share-icons-16">
                         <li data-toggle="ds-share-icons-more"><a class="ds-more" href="#">分享到：</a></li>
@@ -223,13 +221,9 @@
                 <ul class="pager">
                     
                     <li class="previous">
-                        <a href="/2015/09/18/hello-2015/" data-toggle="tooltip" data-placement="top" title="Hello 2015">&larr; Previous Post</a>
+                        <a href="/2015/09/18/ldap-rdb/" data-toggle="tooltip" data-placement="top" title="LDAP 与 Relation DB 的区别和用法">&larr; Previous Post</a>
                     </li>
                     
-                    
-                    <li class="next">
-                        <a href="/2015/09/19/game-devloper/" data-toggle="tooltip" data-placement="top" title="游戏开发计划">Next Post &rarr;</a>
-                    </li>
                     
                 </ul>
 
@@ -237,7 +231,7 @@
                 
                 <!-- 多说评论框 start -->
                 <div class="comment">
-                    <div class="ds-thread" data-thread-key="/2015/09/18/ldap-rdb" data-title="LDAP 与 Relation DB 的区别和用法" data-url="http://4575252.github.io/2015/09/18/ldap-rdb/"></div>
+                    <div class="ds-thread" data-thread-key="/2015/09/19/game-devloper" data-title="游戏开发计划" data-url="http://4575252.github.io/2015/09/19/game-devloper/"></div>
                 </div>
                 <!-- 多说评论框 end -->
                 

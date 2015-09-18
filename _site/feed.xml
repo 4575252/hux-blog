@@ -5,9 +5,66 @@
     <description>多开心一点。</description>
     <link>http://4575252.github.io/</link>
     <atom:link href="http://4575252.github.io/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Fri, 18 Sep 2015 16:24:39 +0800</pubDate>
-    <lastBuildDate>Fri, 18 Sep 2015 16:24:39 +0800</lastBuildDate>
+    <pubDate>Fri, 18 Sep 2015 16:56:18 +0800</pubDate>
+    <lastBuildDate>Fri, 18 Sep 2015 16:56:18 +0800</lastBuildDate>
     <generator>Jekyll v2.5.3</generator>
+    
+      <item>
+        <title>游戏开发计划</title>
+        <description>&lt;blockquote&gt;
+  &lt;p&gt;打算通过游戏开发的方式把 Awt/Swing 捡回来,满足多年的心愿&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;闲来无事挺爱玩朋友公司的两款游戏永恒星球和兔子等着瞧,不过这两款游戏设计节奏有点快,也就是太难,爽的时间太多,需要伟哥(DIY)!&lt;/p&gt;
+
+&lt;p&gt;算法、图形 api 要好好研究下，难度有点大，蛮有挑战的&lt;/p&gt;
+
+&lt;p&gt;还在纠结用 swing 还是最近 javaFX 来实现,要不挑战 FX?&lt;/p&gt;
+
+&lt;h3 id=&quot;section&quot;&gt;俄罗斯方块&lt;/h3&gt;
+&lt;p&gt;&lt;img src=&quot;/img/in-post/post-20150918-game-devloper1.jpg&quot; alt=&quot;img&quot; /&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;图案旋转&lt;/li&gt;
+  &lt;li&gt;随机算法&lt;/li&gt;
+  &lt;li&gt;消除/变换动画&lt;/li&gt;
+  &lt;li&gt;得分,排行榜&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;section-1&quot;&gt;连连看&lt;/h3&gt;
+&lt;p&gt;&lt;img src=&quot;/img/in-post/post-20150918-game-devloper2.jpg&quot; alt=&quot;img&quot; /&gt;&lt;br /&gt;
+* 划线/寻路算法&lt;/p&gt;
+
+&lt;h3 id=&quot;section-2&quot;&gt;永恒星球(类似五子棋,更复杂好玩)&lt;/h3&gt;
+&lt;p&gt;&lt;img src=&quot;/img/in-post/post-20150918-game-devloper3.jpg&quot; alt=&quot;img&quot; /&gt;&lt;br /&gt;
+&lt;img src=&quot;http://a5.mzstatic.com/us/r30/Purple7/v4/94/78/53/94785301-203b-dc14-956b-d0076c096ae4/screen568x568.jpeg&quot; alt=&quot;img&quot; /&gt;&lt;br /&gt;
+&lt;img src=&quot;http://a3.mzstatic.com/us/r30/Purple1/v4/20/c9/ed/20c9eda0-8224-7644-b67d-a1f36dc75861/screen568x568.jpeg&quot; alt=&quot;img&quot; /&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;寻路算法&lt;/li&gt;
+  &lt;li&gt;四则运算&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;hr /&gt;
+&lt;p&gt;参考资料&lt;br /&gt;
+&lt;a href=&quot;https://itunes.apple.com/cn/app/yong-heng-xing-qiu/id1018113187?mt=8&amp;amp;ign-mpt=uo%3D4&quot;&gt;永恒星球&lt;/a&gt;&lt;br /&gt;
+&lt;a href=&quot;https://itunes.apple.com/cn/app/tu-zi-deng-zhe-qiao/id1016375065?mt=8&quot;&gt;兔子等着瞧&lt;/a&gt;&lt;/p&gt;
+
+</description>
+        <pubDate>Sat, 19 Sep 2015 00:32:00 +0800</pubDate>
+        <link>http://4575252.github.io/2015/09/19/game-devloper/</link>
+        <guid isPermaLink="true">http://4575252.github.io/2015/09/19/game-devloper/</guid>
+        
+        <category>游戏开发</category>
+        
+        <category>Java</category>
+        
+        <category>JavaFX</category>
+        
+        <category>进行中</category>
+        
+        
+      </item>
     
       <item>
         <title>LDAP 与 Relation DB 的区别和用法</title>
