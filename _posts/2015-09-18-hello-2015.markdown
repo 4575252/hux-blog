@@ -70,7 +70,8 @@ Linke 的 Blog 就这么DUANG开了, 总算有个地方可以好好写点东西�
 jekyllcn 文档[http://jekyllcn.com](http://jekyllcn.com)
 markdown 语法(...)
 模板特别说明(...)
-### *"Goodbye passed"*  
+
+### *"Goodbye Past"*  
 
 
 
