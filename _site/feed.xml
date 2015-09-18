@@ -5,9 +5,67 @@
     <description>多开心一点。</description>
     <link>http://4575252.github.io/</link>
     <atom:link href="http://4575252.github.io/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Fri, 18 Sep 2015 15:44:01 +0800</pubDate>
-    <lastBuildDate>Fri, 18 Sep 2015 15:44:01 +0800</lastBuildDate>
+    <pubDate>Fri, 18 Sep 2015 16:15:37 +0800</pubDate>
+    <lastBuildDate>Fri, 18 Sep 2015 16:15:37 +0800</lastBuildDate>
     <generator>Jekyll v2.5.3</generator>
+    
+      <item>
+        <title>LDAP 与 Relation DB 的区别和用法</title>
+        <description>&lt;blockquote&gt;
+  &lt;p&gt;我能告诉你折腾一天 blog 主要是因为这篇文章的发布么~&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;前几日检索红肠啃僵尸的 blog, 留意了一下 cas sso 的构建,对于 openladp 是早有耳闻,也应用实施过 AD 与 WAS 的集成,并自行开发了一套简易 sso 的 api, 应用了&amp;gt;=5套的子系统，不过对于什么时候用 ldap 或 db 一直不甚了解，早上醒来冥思苦想google了半天，略有感觉因此成文。&lt;/p&gt;
+
+&lt;h3 id=&quot;ldap-&quot;&gt;关于 ldap 的优缺点&lt;/h3&gt;
+&lt;p&gt;优点&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;数量大、读取快速（特殊的树形/文档树结构）&lt;/li&gt;
+  &lt;li&gt;多年推广并广泛支持的国际流行标准，方便快速的与电子设备、软件系统集成&lt;/li&gt;
+  &lt;li&gt;单点登录方面应用广发，对于多系统单用户的场景特别适用&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;缺点&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;不支持事务机制，写入、更新缓慢&lt;/li&gt;
+  &lt;li&gt;权限模型较弱，单一层级、横向扩展空间有限，复杂权限设计还要结合关系型数据库&lt;/li&gt;
+  &lt;li&gt;搭建复杂、集成易出错、文档少&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;ldap--1&quot;&gt;LDAP 存在的意义&lt;/h3&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;外语系电子设备如打印机/网络设备等,做认证默认都自带 ldap 接口,如有该服务可快速使用.&lt;/li&gt;
+  &lt;li&gt;普通企业快速发展逐步积累了不少中小系统,回过头来发现每个用户都有好多账号口令,急需一个统一认证服务, LDAP 就应运而建了.&lt;/li&gt;
+  &lt;li&gt;域服务的推广积累,大公司在实施 ITEL 都会考虑这块,第一时间就是搭建 AD 服务,然后足部横向推广&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;section&quot;&gt;其他&lt;/h3&gt;
+
+&lt;p&gt;LDAP 与 RDB 并不冲突, 很多时候需要通力合作.&lt;/p&gt;
+
+&lt;p&gt;相对于 RDB,LDAP 在国内/短期项目应用并不多,但规模上去了还是会应用&lt;/p&gt;
+
+&lt;p&gt;网上关于 LDAP 和 RDB 的争议还是不少, LDAP 虽然有点迟暮,但还是有不少份额,至少在某些场景还是很不错的解决方案.&lt;/p&gt;
+
+&lt;hr /&gt;
+&lt;p&gt;参考资料&lt;br /&gt;
+为什么&lt;a href=&quot;https://www.centos.org/docs/5/html/5.2/Deployment_Guide/s1-ldap-adv.html&quot;&gt;使用 LDAP&lt;/a&gt;&lt;br /&gt;
+&lt;a href=&quot;http://blog.csdn.net/lifetragedy/article/details/43817903&quot;&gt;单点登录之CAS SSO从入门到精通（第一天）&lt;/a&gt;&lt;/p&gt;
+
+</description>
+        <pubDate>Fri, 18 Sep 2015 23:50:00 +0800</pubDate>
+        <link>http://4575252.github.io/2015/09/18/ldap-rdb/</link>
+        <guid isPermaLink="true">http://4575252.github.io/2015/09/18/ldap-rdb/</guid>
+        
+        <category>LDAP</category>
+        
+        <category>DataBase</category>
+        
+        
+      </item>
     
       <item>
         <title>Hello 2015</title>
@@ -23,7 +81,7 @@
 
 &lt;p&gt;2015年也是脑洞大开的一年, 结合&lt;a href=&quot;http://www.zhihu.com/question/20576786&quot;&gt;费曼快速学习技巧&lt;/a&gt;, 想想还是写点东西总结总结, 毕竟笔记本里都是些乱七八糟的, 算是给自己开个专栏。&lt;/p&gt;
 
-&lt;p&gt;转眼进入 2015 ，觉得还是有很多话想要说，很多经历和感悟可以写，也想丰富下自己的个站（之前的&lt;a href=&quot;http://huangxuan.me/portfolio&quot;&gt;个人网站&lt;/a&gt;是作品集形式的，现在集成进来了。），&lt;strong&gt;想来想去还是弄个 Blog 最适合……&lt;/strong&gt;罢罢罢，花一天搞一个吧！&lt;/p&gt;
+&lt;p&gt;马上又要进入 2016，觉得还是有很多话想要说，很多经历和感悟可以写，也想丰富下自己的个站，&lt;strong&gt;想来想去还是弄个 Blog 最适合……&lt;/strong&gt;罢罢罢，花一天搞一个吧！&lt;/p&gt;
 
 &lt;p&gt;本站前端模板直接拷贝了&lt;a href=&quot;http://huangxuan.me/portfolio&quot;&gt;Hux Blog&lt;/a&gt; 和原作者&lt;a href=&quot;http://ironsummitmedia.github.io/startbootstrap-clean-blog-jekyll/&quot;&gt;Clean Blog&lt;/a&gt;,并直接复用了 &lt;a href=&quot;http://lzhblog.duoshuo.com/admin/&quot;&gt;duoshuo 评论系统&lt;/a&gt;,懒到极致了, O(∩_∩)O~&lt;/p&gt;
 
@@ -58,7 +116,7 @@
   &lt;/li&gt;
   &lt;li&gt;非常熟悉的 Git Flow ，&lt;strong&gt;Git Commit 即 Blog Post&lt;/strong&gt;
     &lt;ul&gt;
-      &lt;li&gt;前端最爱啊，自从换 Mac 后，Terminal(Z-Shell) + Git 玩起来太爽了&lt;/li&gt;
+      &lt;li&gt;Mac 也有 Github Desktop 版了,不用记忆那么多命令了,玩起来太爽了&lt;/li&gt;
     &lt;/ul&gt;
   &lt;/li&gt;
   &lt;li&gt;&lt;strong&gt;Markdown&lt;/strong&gt; 写作环境

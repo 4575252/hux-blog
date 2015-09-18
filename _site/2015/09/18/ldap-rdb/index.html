@@ -9,9 +9,9 @@
     <meta name="description" content="多开心一点。">
     <link rel="shortcut icon" href="img/favicon.ico">
 
-    <title>Tags - Linke's Blog</title>
+    <title>LDAP 与 Relation DB 的区别和用法 - Linke's Blog</title>
 
-    <link rel="canonical" href="http://4575252.github.io/tags/">
+    <link rel="canonical" href="http://4575252.github.io/2015/09/18/ldap-rdb/">
 
     <!-- Bootstrap Core CSS -->
     <link rel="stylesheet" href="/css/bootstrap.min.css">
@@ -102,117 +102,213 @@
 </nav>
 
 
-    <!-- Page Header -->
-<header class="intro-header" style="background-image: url('/img/tag-bg.jpg')">
+    <!-- Image to hack wechat -->
+<!-- <img src="/img/icon_wechat.png" width="0" height="0"> -->
+<!-- <img src="/img/post-bg-2015.jpg" width="0" height="0"> -->
+
+<!-- Post Header -->
+<style type="text/css">
+    header.intro-header{
+        background-image: url('/img/post-bg-2015.jpg')
+    }
+</style>
+<header class="intro-header" >
     <div class="container">
         <div class="row">
             <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
-                <div class="site-heading" id="tag-heading">
-                    <h1>Tags</h1>
-                    <span class="subheading">keep hungry keep foolish</span>
+                <div class="post-heading">
+                    <div class="tags">
+                        
+                        <a class="tag" href="/tags/#LDAP" title="LDAP">LDAP</a>
+                        
+                        <a class="tag" href="/tags/#DataBase" title="DataBase">DataBase</a>
+                        
+                    </div>
+                    <h1>LDAP 与 Relation DB 的区别和用法</h1>
+                    
+                    
+                    <h2 class="subheading"></h2>
+                    
+                    <span class="meta">Posted by Linke on September 18, 2015</span>
                 </div>
             </div>
         </div>
     </div>
 </header>
 
-<!-- Main Content -->
-<div class="container">
-	<div class="row">
-		<div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
-			<!--  -->
-            <!-- 标签云 -->
-			<div id='tag_cloud' class="tags">
-				
-				<a href="#生活" title="生活" rel="1">生活</a>
-				
-				<a href="#LDAP" title="LDAP" rel="1">LDAP</a>
-				
-				<a href="#DataBase" title="DataBase" rel="1">DataBase</a>
-				
-			</div>
+<!-- Post Content -->
+<article>
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1 post-container">
 
-            <blockquote class="tag-comments">
-                标签命名规范：
-                    <li>行业观察、职位、公司优先使用中文</li>
-                    <li>外国产品、术语优先使用英文</li>
-            </blockquote>
+				<blockquote>
+  <p>我能告诉你折腾一天 blog 主要是因为这篇文章的发布么~</p>
+</blockquote>
 
-            <!-- 标签列表 -->
-			
-			<div class="one-tag-list">
-			  	<span class="fa fa-tag listing-seperator" id="生活">生活</span>
-				
-				  <!-- <li class="listing-item">
-				  <time datetime="2015-09-18">2015-09-18</time>
-				  <a href="/2015/09/18/hello-2015/" title="Hello 2015">Hello 2015</a>
-				  </li> -->
-				 <div class="post-preview">
-				    <a href="/2015/09/18/hello-2015/">
-				        <h2 class="post-title">            Hello 2015
-				        </h2>
-				        
-				        <h3 class="post-subtitle">
-				             "Hello World, Hello Blog"
-				        </h3>
-				        
-				    </a>
-				    <!-- <p class="post-meta">2015-09-18</p> -->
-				</div>
-				<hr>
-				
-			</div>
-			
-			<div class="one-tag-list">
-			  	<span class="fa fa-tag listing-seperator" id="LDAP">LDAP</span>
-				
-				  <!-- <li class="listing-item">
-				  <time datetime="2015-09-18">2015-09-18</time>
-				  <a href="/2015/09/18/ldap-rdb/" title="LDAP 与 Relation DB 的区别和用法">LDAP 与 Relation DB 的区别和用法</a>
-				  </li> -->
-				 <div class="post-preview">
-				    <a href="/2015/09/18/ldap-rdb/">
-				        <h2 class="post-title">            LDAP 与 Relation DB 的区别和用法
-				        </h2>
-				        
-				        <h3 class="post-subtitle">
-				            
-				        </h3>
-				        
-				    </a>
-				    <!-- <p class="post-meta">2015-09-18</p> -->
-				</div>
-				<hr>
-				
-			</div>
-			
-			<div class="one-tag-list">
-			  	<span class="fa fa-tag listing-seperator" id="DataBase">DataBase</span>
-				
-				  <!-- <li class="listing-item">
-				  <time datetime="2015-09-18">2015-09-18</time>
-				  <a href="/2015/09/18/ldap-rdb/" title="LDAP 与 Relation DB 的区别和用法">LDAP 与 Relation DB 的区别和用法</a>
-				  </li> -->
-				 <div class="post-preview">
-				    <a href="/2015/09/18/ldap-rdb/">
-				        <h2 class="post-title">            LDAP 与 Relation DB 的区别和用法
-				        </h2>
-				        
-				        <h3 class="post-subtitle">
-				            
-				        </h3>
-				        
-				    </a>
-				    <!-- <p class="post-meta">2015-09-18</p> -->
-				</div>
-				<hr>
-				
-			</div>
-			
+<p>前几日检索红肠啃僵尸的 blog, 留意了一下 cas sso 的构建,对于 openladp 是早有耳闻,也应用实施过 AD 与 WAS 的集成,并自行开发了一套简易 sso 的 api, 应用了&gt;=5套的子系统，不过对于什么时候用 ldap 或 db 一直不甚了解，早上醒来冥思苦想google了半天，略有感觉因此成文。</p>
 
-		</div>
-	</div>
-</div>
+<h3 id="ldap-">关于 ldap 的优缺点</h3>
+<p>优点</p>
+
+<ul>
+  <li>数量大、读取快速（特殊的树形/文档树结构）</li>
+  <li>多年推广并广泛支持的国际流行标准，方便快速的与电子设备、软件系统集成</li>
+  <li>单点登录方面应用广发，对于多系统单用户的场景特别适用</li>
+</ul>
+
+<p>缺点</p>
+
+<ul>
+  <li>不支持事务机制，写入、更新缓慢</li>
+  <li>权限模型较弱，单一层级、横向扩展空间有限，复杂权限设计还要结合关系型数据库</li>
+  <li>搭建复杂、集成易出错、文档少</li>
+</ul>
+
+<h3 id="ldap--1">LDAP 存在的意义</h3>
+
+<ul>
+  <li>外语系电子设备如打印机/网络设备等,做认证默认都自带 ldap 接口,如有该服务可快速使用.</li>
+  <li>普通企业快速发展逐步积累了不少中小系统,回过头来发现每个用户都有好多账号口令,急需一个统一认证服务, LDAP 就应运而建了.</li>
+  <li>域服务的推广积累,大公司在实施 ITEL 都会考虑这块,第一时间就是搭建 AD 服务,然后足部横向推广</li>
+</ul>
+
+<h3 id="section">其他</h3>
+
+<p>LDAP 与 RDB 并不冲突, 很多时候需要通力合作.</p>
+
+<p>相对于 RDB,LDAP 在国内/短期项目应用并不多,但规模上去了还是会应用</p>
+
+<p>网上关于 LDAP 和 RDB 的争议还是不少, LDAP 虽然有点迟暮,但还是有不少份额,至少在某些场景还是很不错的解决方案.</p>
+
+<hr />
+<p>参考资料<br />
+为什么<a href="https://www.centos.org/docs/5/html/5.2/Deployment_Guide/s1-ldap-adv.html">使用 LDAP</a><br />
+<a href="http://blog.csdn.net/lifetragedy/article/details/43817903">单点登录之CAS SSO从入门到精通（第一天）</a></p>
+
+
+
+                <hr>
+
+                
+                <!-- 多说 Share start -->
+                </style>
+                <div class="ds-share"
+                    style="text-align: right"
+                    data-thread-key="/2015/09/18/ldap-rdb" data-title="LDAP 与 Relation DB 的区别和用法"
+                    data-images="http://4575252.github.io/img/post-bg-2015.jpg"
+                    data-content="
+  我能告诉你折腾一天 blog 主要是因为这篇文章的发布么~
+
+
+前几日检索红肠啃僵尸的 blog, 留意了一下 cas sso 的构建,对于 ope... | Linke Blog，@Linke 的个人博客"
+                    data-url="http://4575252.github.io/2015/09/18/ldap-rdb/">
+                    <div class="ds-share-inline">
+                      <ul  class="ds-share-icons-16">
+                        <li data-toggle="ds-share-icons-more"><a class="ds-more" href="#">分享到：</a></li>
+                        <li><a class="ds-wechat flat" href="javascript:void(0);" data-service="wechat">微信</a></li>
+                        <li><a class="ds-weibo flat" href="javascript:void(0);" data-service="weibo">微博</a></li>
+                        <li><a class="ds-douban flat" href="javascript:void(0);" data-service="douban">豆瓣</a></li>
+                      </ul>
+                      <div class="ds-share-icons-more">
+                      </div>
+                    </div>
+                <hr>
+                </div>
+                <!-- 多少 Share end-->
+                
+
+
+                <ul class="pager">
+                    
+                    <li class="previous">
+                        <a href="/2015/09/18/hello-2015/" data-toggle="tooltip" data-placement="top" title="Hello 2015">&larr; Previous Post</a>
+                    </li>
+                    
+                    
+                </ul>
+
+
+                
+                <!-- 多说评论框 start -->
+                <div class="comment">
+                    <div class="ds-thread" data-thread-key="/2015/09/18/ldap-rdb" data-title="LDAP 与 Relation DB 的区别和用法" data-url="http://4575252.github.io/2015/09/18/ldap-rdb/"></div>
+                </div>
+                <!-- 多说评论框 end -->
+                
+
+                <!-- friends -->
+                
+                <div class="sidebar-container">
+                    <hr>
+                    <h5>FRIENDS</h5>
+                    <ul class="list-inline" style="
+                        margin-bottom: 0;
+                    ">
+                        
+                            <li><a href="#">赶紧抢注吧</a></li>
+                        
+                    </ul>
+                </div>
+                
+            </div>
+        </div>
+    </div>
+</article>
+
+
+
+<!-- 多说公共JS代码 start (一个网页只需插入一次) -->
+<script type="text/javascript">
+var duoshuoQuery = {short_name:"lzhblog"};
+    (function() {
+        var ds = document.createElement('script');
+        ds.type = 'text/javascript';ds.async = true;
+        ds.src = (document.location.protocol == 'https:' ? 'https:' : 'http:') + '//static.duoshuo.com/embed.js';
+        ds.charset = 'UTF-8';
+        (document.getElementsByTagName('head')[0]
+         || document.getElementsByTagName('body')[0]).appendChild(ds);
+    })();
+</script>
+<!-- 多说公共JS代码 end -->
+
+
+
+
+<!-- async load function -->
+<script>
+    function async(u, c) {
+      var d = document, t = 'script',
+          o = d.createElement(t),
+          s = d.getElementsByTagName(t)[0];
+      o.src = u;
+      if (c) { o.addEventListener('load', function (e) { c(null, e); }, false); }
+      s.parentNode.insertBefore(o, s);
+    }
+</script>
+<!-- anchor-js, Doc:http://bryanbraun.github.io/anchorjs/ -->
+<script>
+    async("http://cdn.bootcss.com/anchor-js/1.1.1/anchor.min.js",function(){
+        anchors.options = {
+          visible: 'always',
+          placement: 'right',
+          icon: '#'
+        };
+        anchors.add().remove('.intro-header h1').remove('.subheading').remove('.sidebar-container h5');
+    })
+</script>
+<style>
+    /* place left on bigger screen */
+    @media all and (min-width: 800px) {
+        .anchorjs-link{
+            position: absolute;
+            left: -0.75em;
+            font-size: 1.1em;
+            margin-top : -0.1em;
+        }
+    }
+</style>
+
 
 
     <!-- Footer -->

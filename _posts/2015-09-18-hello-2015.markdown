@@ -22,7 +22,7 @@ Linke 的 Blog 就这么DUANG开了, 总算有个地方可以好好写点东西�
 
 2015年也是脑洞大开的一年, 结合[费曼快速学习技巧](http://www.zhihu.com/question/20576786), 想想还是写点东西总结总结, 毕竟笔记本里都是些乱七八糟的, 算是给自己开个专栏。
 
-转眼进入 2015 ，觉得还是有很多话想要说，很多经历和感悟可以写，也想丰富下自己的个站（之前的[个人网站](http://huangxuan.me/portfolio)是作品集形式的，现在集成进来了。），**想来想去还是弄个 Blog 最适合……**罢罢罢，花一天搞一个吧！  
+马上又要进入 2016，觉得还是有很多话想要说，很多经历和感悟可以写，也想丰富下自己的个站，**想来想去还是弄个 Blog 最适合……**罢罢罢，花一天搞一个吧！  
 
 本站前端模板直接拷贝了[Hux Blog](http://huangxuan.me/portfolio) 和原作者[Clean Blog](http://ironsummitmedia.github.io/startbootstrap-clean-blog-jekyll/),并直接复用了 [duoshuo 评论系统](http://lzhblog.duoshuo.com/admin/),懒到极致了, O(∩_∩)O~
 
@@ -49,7 +49,7 @@ Linke 的 Blog 就这么DUANG开了, 总算有个地方可以好好写点东西�
 * 利用 GitHub Pages 的域名和免费无限空间，不用自己折腾主机
 	* 如果需要自定义域名，也只需要简单改改 DNS 加个 CNAME 就好了 
 * 非常熟悉的 Git Flow ，**Git Commit 即 Blog Post**
-	* 前端最爱啊，自从换 Mac 后，Terminal(Z-Shell) + Git 玩起来太爽了
+	* Mac 也有 Github Desktop 版了,不用记忆那么多命令了,玩起来太爽了
 * **Markdown** 写作环境
 	* 这就是 Jekyll 的魔法了，习惯了 Markdown 排版后也是离不开
 * Jekyll 的自定制还是相当容易的，基本就是个模版引擎
