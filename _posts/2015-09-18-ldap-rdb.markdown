@@ -4,7 +4,7 @@ title:      "LDAP 与 Relation DB 的区别和用法"
 subtitle:   ""
 date:       2015-09-18 15:50:00
 author:     "Linke"
-header-img: "img/post-bg-2015.jpg"
+header-img: "img/post-bg-rwd.jpg"
 tags:
     - LDAP
     - DataBase
@@ -13,6 +13,7 @@ tags:
 >  我能告诉你折腾一天 blog 主要是因为这篇文章的发布么~
 
 前几日检索红肠啃僵尸的 blog, 留意了一下 cas sso 的构建,对于 openladp 是早有耳闻,也应用实施过 AD 与 WAS 的集成,并自行开发了一套简易 sso 的 api, 应用了>=5套的子系统，不过对于什么时候用 ldap 或 db 一直不甚了解，早上醒来冥思苦想google了半天，略有感觉因此成文。
+![img](/img/in-post/post-20150918-ldapvsrdb.png)
 
 ### 关于 ldap 的优缺点
 优点

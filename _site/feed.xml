@@ -5,8 +5,8 @@
     <description>多开心一点。</description>
     <link>http://4575252.github.io/</link>
     <atom:link href="http://4575252.github.io/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Fri, 18 Sep 2015 16:15:37 +0800</pubDate>
-    <lastBuildDate>Fri, 18 Sep 2015 16:15:37 +0800</lastBuildDate>
+    <pubDate>Fri, 18 Sep 2015 16:24:39 +0800</pubDate>
+    <lastBuildDate>Fri, 18 Sep 2015 16:24:39 +0800</lastBuildDate>
     <generator>Jekyll v2.5.3</generator>
     
       <item>
@@ -15,7 +15,8 @@
   &lt;p&gt;我能告诉你折腾一天 blog 主要是因为这篇文章的发布么~&lt;/p&gt;
 &lt;/blockquote&gt;
 
-&lt;p&gt;前几日检索红肠啃僵尸的 blog, 留意了一下 cas sso 的构建,对于 openladp 是早有耳闻,也应用实施过 AD 与 WAS 的集成,并自行开发了一套简易 sso 的 api, 应用了&amp;gt;=5套的子系统，不过对于什么时候用 ldap 或 db 一直不甚了解，早上醒来冥思苦想google了半天，略有感觉因此成文。&lt;/p&gt;
+&lt;p&gt;前几日检索红肠啃僵尸的 blog, 留意了一下 cas sso 的构建,对于 openladp 是早有耳闻,也应用实施过 AD 与 WAS 的集成,并自行开发了一套简易 sso 的 api, 应用了&amp;gt;=5套的子系统，不过对于什么时候用 ldap 或 db 一直不甚了解，早上醒来冥思苦想google了半天，略有感觉因此成文。&lt;br /&gt;
+&lt;img src=&quot;/img/in-post/post-20150918-ldapvsrdb.png&quot; alt=&quot;img&quot; /&gt;&lt;/p&gt;
 
 &lt;h3 id=&quot;ldap-&quot;&gt;关于 ldap 的优缺点&lt;/h3&gt;
 &lt;p&gt;优点&lt;/p&gt;
